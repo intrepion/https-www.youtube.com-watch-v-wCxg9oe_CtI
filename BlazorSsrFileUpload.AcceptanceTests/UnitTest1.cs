@@ -1,4 +1,4 @@
-namespace BlazorSsrFileUpload.AcceptanceTests;
+﻿namespace BlazorSsrFileUpload.AcceptanceTests;
 
 public class Tests
 {
