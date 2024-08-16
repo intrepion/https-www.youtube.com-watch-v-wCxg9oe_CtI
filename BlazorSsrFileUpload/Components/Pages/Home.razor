@@ -13,7 +13,11 @@
 
     async Task UploadFile()
     {
-
+        var folderPath = Path.Combine("C:\\Blazor-Files");
+        var filePath = Path.Combine(folderPath, FileInput.File.FileName);
+        Directory.CreateDirectory(folderPath);
+        await using var stream = new FileStream(filePath, FileMode.Create);
+        await FileInput.File.CopyToAsync(stream);
     }
 
     class FileModel
