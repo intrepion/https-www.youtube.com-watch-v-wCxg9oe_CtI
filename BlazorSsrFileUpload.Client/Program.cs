@@ -1,4 +1,4 @@
-using BlazorSsrFileUpload.Client;
+﻿using BlazorSsrFileUpload.Client;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

@@ -1,10 +1,10 @@
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using BlazorSsrFileUpload.Client.Pages;
+﻿using BlazorSsrFileUpload.Client.Pages;
 using BlazorSsrFileUpload.Components;
 using BlazorSsrFileUpload.Components.Account;
 using BlazorSsrFileUpload.Data;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
