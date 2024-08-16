@@ -16,4 +16,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorSsrFileUpload.BusinessLogic\BlazorSsrFileUpload.BusinessLogic.csproj" />
+  </ItemGroup>
+
 </Project>
